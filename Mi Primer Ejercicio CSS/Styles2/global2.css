@@ -1,0 +1,38 @@
+.title {
+    text-align: center;
+    font-size: 50px;
+    border: 2px solid blue;
+}
+
+.parrafo1 {
+
+    font-size: 30px;
+    color: orange;
+    border: 2px solid blue;
+    text-align: center;
+    margin-top: 5;
+    
+    
+}
+
+.parrafo2 {
+
+    font-size: 30px;
+    color: rgb(17, 214, 50);
+    border: 2px solid blue;
+    text-align: center;
+    margin-top: 5;
+}
+
+.parrafo3 {
+
+    font-size: 30px;
+    color: rgb(29, 6, 236);
+    text-align: center;
+    margin-top: 5;
+}
+
+body {
+    background: rgb(230, 235, 245);
+  }
+    
