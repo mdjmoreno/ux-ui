@@ -5,7 +5,8 @@
 }
 
 p {
-  background-color: blue;
+  background-color: white;
+  font-size: 30px;
 }
 
 #parrafo {
@@ -14,9 +15,33 @@ p {
   border: 1px solid red;
 }
 
-body {
-  background-image: url("../assets/images/heart.jpg");
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
+p {
+  font-size: 10px;
+}
+#test {
+  font-size: 10px;
+}
+.container {
+  font-size: 10px;
+}
+
+p,
+#test,
+.container {
+  font-size: 10px;
+}
+
+.external-container,
+#container-text,
+.title-example,
+.sub-container {
+  font-size: 30px;
+  color: brown;
+}
+
+.first-container {
+  padding: 10px;
+  font-size: 15px;
+  background: dimgrey;
+  margin: 10px 12px 20px 35px;
 }
