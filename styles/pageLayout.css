@@ -3,23 +3,37 @@
   justify-content: center;
 }
 
-.nav-cotainer {
+.nav-container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .menu {
   display: flex;
   justify-content: start;
 }
-.show-menu{
-    display: none;
+
+.show-menu {
+  display: none;
 }
 
-.main-container{
-    display: flex;
+.container {
+  display: flex;
+
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.space-menu{
-    margin-right: 20px;
+.main-container {
+  width: 100%;
+}
+
+.aside-container {
+  width: 30%;
+}
+
+.space-menu {
+  margin-right: 20px;
 }
