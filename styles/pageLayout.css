@@ -37,3 +37,11 @@
 .space-menu {
   margin-right: 20px;
 }
+.container-section{
+    margin-right: 28px;
+}
+
+.container-footer{
+    display: flex;
+    justify-content: center;
+}
