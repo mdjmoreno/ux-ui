@@ -29,8 +29,8 @@
       </div>
 
       <div class="login">
-        <button class="button white">Registro</button>
-        <button class="button red">Iniciar</button>
+        <button class="button white" onclick="login('registro')">Registro</button>
+        <button class="button red" onclick="login('inicio')">Inicio</button>
       </div>
     </header>
 
@@ -124,5 +124,23 @@
       <div class="space-menu">Facebook</div>
       <div class="space-menu">Twitter</div>
     </footer>
+
+    <script>
+      function login (nombre) {
+        // alert('Felicitaciones haz dado click al boton: ' + nombre)
+        
+        const valueConfirm = confirm('BOTON DE CONFIRMACIÓN')
+
+        let messageResult = ''
+
+        if (valueConfirm) {
+          messageResult = 'verdadero'
+        } else {
+          messageResult = 'falso'
+        }
+
+        console.log('El resultado fue: ' + messageResult)
+      }
+    </script>
   </body>
 </html>
