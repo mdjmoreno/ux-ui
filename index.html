@@ -1,49 +1,155 @@
-<html>
-    <head>
-        <title>BIOS: Mi primera clase</title>
-        <link rel="stylesheet" href="./styles/global.css">
-</head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Styles -->
+    <link rel="stylesheet" href="./styles/pageLayout.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Document</title>
+  </head>
 
   <body>
-    <h1 class="tittle">Mi primera clase con HTML</h1>
-    <h2 class="title"> The same class</h2>
+    <header class="header container">
+      <div class="logo">
+        <img
+          width="100px"
+          src="./assets/images/logo.png"
+          alt="Logo de coca cola"
+        />
+      </div>
 
-    <p id="parrafo">
+      <div class="login">
+        <button class="button white" onclick="login('registro')">
+          Registro
+        </button>
+        <button class="button red" onclick="login('inicio')">Inicio</button>
+      </div>
+    </header>
 
-        This is a paragraph and its used with the tag P
-    </p>
-
-    <p style="color:red; font-size: 22px">This is a paragraph and it's used with the tag P.</p>
-    
-
-    <hr />
-
-    <img width="200px" src="./assets/images/heart.jpg">
-    
-    <br/>
-
-    <img width="200px" src="https://marketinghousemedia.com/wp-content/uploads/2019/11/Blog-Post-Free-Stock-Images-River-Mountain-Forest-1080x675.jpg">
-
-    <br/>
-
-    <a target="_blank" href="https://www.w3schools.com">Visit W3Schools page</a>
-
-    <div class="external-container">Este es ejemplo</div>
+    <!-- Navigation -->
+    <nav class="nav-container">
+      <div class="show-menu">Menu</div>
+      <ul class="menu">
+        <li>
+          <a href="./">Home</a>
+        </li>
+        <li>
+          <a href="./about.html">About Us</a>
+        </li>
+        <li>
+          <a href="./contact.html">Contact</a>
+        </li>
+      </ul>
+    </nav>
 
     <div class="container">
-      <div class="sub-container">
-        ejemplo
-        <p id="container-text">
-          <h2 class="title-example">TITLE</h2>
-          The background images are drawn on stacking context layers on top of each other. The first layer specified is drawn as if it is closest to the user.
-          <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/background-image">Documentation</a>
-          <a href="./pageTwo.html">Page Two</a>
+      <div class="container-section">
+        <section>
+          Section
+          <h3>Category #1</h3>
+          <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+          </ul>
+        </section>
+
+        <section>
+          Section
+          <h3>Category #2</h3>
+          <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+          </ul>
+        </section>
+      </div>
+      <main class="main-container">
+        <h1>Main Title</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, quidem
+          beatae mollitia, assumenda harum maiores unde inventore, quo ab culpa
+          veritatis quis iure placeat possimus quibusdam perferendis odio!
+          Laudantium, saepe! Lorem ipsum dolor, sit amet consectetur adipisicing
+          elit. Adipisci non veniam rem dolorum commodi provident fugiat
+          consequuntur cum laborum eius voluptatem obcaecati consequatur minus
+          beatae similique voluptatum soluta, officia inventore quibusdam
+          explicabo dolores excepturi esse? Vitae saepe molestiae itaque
+          eligendi nihil qui possimus tenetur? Consectetur omnis placeat sequi
+          nemo numquam, sit, exercitationem beatae dolorem tempora autem atque
+          ea laudantium illum sunt eum! Iure repellat sit nobis minima
+          distinctio enim, quam eaque natus, impedit perspiciatis illo vel porro
+          autem debitis harum, eum animi veniam quidem. Nihil, saepe. Natus
+          nemo, saepe laudantium animi explicabo, obcaecati vel delectus, ea
+          optio numquam nobis incidunt!
         </p>
+      </main>
+      <div class="aside-container">
+        <aside>
+          Aside
+          <h5>Other title</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum,
+            modi.
+          </p>
+        </aside>
+
+        <aside>
+          Aside
+          <h5>Other title</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum,
+            modi.
+          </p>
+        </aside>
+
+        <aside>
+          Aside
+          <h5>Other title</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum,
+            modi.
+          </p>
+        </aside>
       </div>
     </div>
 
-    <div class="first-container">
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
-    </div>
-  </body>  
+    <footer class="container-footer">
+      <div class="space-menu">Home</div>
+      <div class="space-menu">About Us</div>
+      <div class="space-menu">Contact</div>
+
+      <div class="space-menu">Instagram</div>
+      <div class="space-menu">Facebook</div>
+      <div class="space-menu">Twitter</div>
+    </footer>
+
+    <script>
+      function login(nombre) {
+        // alert('Felicitaciones haz dado click al boton: ' + nombre)
+
+        const valueConfirm = confirm("BOTON DE CONFIRMACIÓN");
+
+        let messageResult = "";
+
+        if (valueConfirm) {
+          messageResult = "verdadero";
+        } else {
+          messageResult = "falso";
+        }
+
+        console.log("El resultado fue: " + messageResult);
+      }
+    </script>
+  </body>
 </html>

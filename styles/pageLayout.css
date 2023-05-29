@@ -50,6 +50,12 @@ body {
 .menu {
   display: flex;
   justify-content: start;
+  list-style-type: none;
+  column-gap: 2rem;
+}
+
+.space-menu {
+  margin-right: 20px;
 }
 
 .show-menu {
@@ -71,9 +77,6 @@ body {
   width: 30%;
 }
 
-.space-menu {
-  margin-right: 20px;
-}
 .container-section {
   margin-right: 28px;
 }
