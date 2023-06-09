@@ -1,0 +1,31 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f0f8ff;
+}
+
+.albums {
+  display: flex;
+  gap: 1rem;
+  max-width: 1200px;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.album {
+  max-width: 250px;
+}
+
+.album-image {
+  width: 100%;
+  border-radius: 1rem;
+  box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.3);
+}
+
+.album-name {
+  font-weight: bold;
+}
+
+.album-year {
+  font-weight: 100;
+}
